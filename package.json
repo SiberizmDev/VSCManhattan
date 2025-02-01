@@ -1,0 +1,30 @@
+{
+  "name": "manhattan",
+  "displayName": "Manhattan",
+  "description": "Manhattan theme by Siberizm",
+  "publisher": "Siberizm",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Siberizm/VSCManhattan.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Manhattan",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Manhattan-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
+  }
+}
